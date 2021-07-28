@@ -9,7 +9,7 @@ const oauth2Client = new google.auth.OAuth2(
    * This is where Google will redirect the user after they
    * give permission to your application
    */
-  "http://https://todobackendapplication.herokuapp.com/auth/google/callback"
+  "https://todobackendapplication.herokuapp.com/auth/google/callback"
 );
 
 function getGoogleAuthURLService() {
