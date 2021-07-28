@@ -20,7 +20,7 @@ const getUserDetailsController = async (req, res, next) => {
     const user = await userStorageService(userProfile);
     if (user) {
       req.session.user = user;
-      res.redirect("http://127.0.0.1:3000/");
+      res.redirect("https://todobackendapplication.herokuapp.com");
     }
   } catch (error) {
     next(error);
